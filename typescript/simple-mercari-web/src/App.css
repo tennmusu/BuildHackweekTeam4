@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+option{
+  text-align: center;
+}
+.Title {
+  background-color: #222427;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.Listing {
+  background-color: #222427;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+
+.SOLD {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 80px 0 0;
+  border-color: #ff0015 transparent transparent transparent;
+  
+}
+.SOLD p {
+  position: relative;
+  text-align: left;
+  top:-65px; left: 10px;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  transform: rotate(-45deg);
+}
+
+.Price {
+  position: absolute;
+  top:55%;
+  width:max-content;
+  height: fit-content;
+  padding-right:7px;
+	padding-left:3px;
+  font-weight: bold;
+	text-decoration: none;
+  background: rgba(45, 41, 41, 0.6);
+	border-radius: 0 2em 2em 0;
+}
+.Price_in_Item {
+  position: absolute;
+  top:38%;
+  width:max-content;
+  height: fit-content;
+  padding-right:7px;
+	padding-left:3px;
+  font-weight: bold;
+	text-decoration: none;
+  background: rgba(45, 41, 41, 0.6);
+	border-radius: 0 2em 2em 0;
+}
+.Price_in_Item p{
+  color: #fff;
+  margin: 0 auto;
+  font-size: medium;
+}
+.Price p{
+  color: #fff;
+  margin: 0 auto;
+  font-size: medium;
+}
+.Private {
+  position: absolute;
+  top:43%;
+  width:max-content;
+  height: fit-content;
+  padding-right:7px;
+	padding-left:3px;
+  font-weight: bold;
+	text-decoration: none;
+  background: rgba(45, 41, 41, 0.6);
+	border-radius: 0 2em 2em 0;
+}
+.Private p{
+  color: #fff;
+  margin: 0 auto;
+  font-size: medium;
+}
+.Private_in_Item {
+  position: absolute;
+  top:33%;
+  width:max-content;
+  height: fit-content;
+  padding-right:7px;
+	padding-left:3px;
+  font-weight: bold;
+	text-decoration: none;
+  background: rgba(45, 41, 41, 0.6);
+	border-radius: 0 2em 2em 0;
+}
+.Private_in_Item p{
+  color: #fff;
+  margin: 0 auto;
+  font-size: medium;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.Login {
+  background-color: #222427;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+
+.Link {
+  text-decoration: none;
+  color:#1976d2;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
